@@ -1,0 +1,107 @@
+@import url(/styles/style.css);
+
+@media (max-width: 1200px) {
+    .conteudoPrincipal {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+
+   .sessaoInput__textbutton {
+    margin: 5% 5% 0% 5%;
+   }
+
+   .sessaoInput__alerta{
+    margin-bottom: 0.5rem;
+    gap: 0.3rem;
+
+   }
+
+   .botao__criptografar {
+    padding: 0.5rem 1rem; 
+   }
+
+   .botao__descriptografar {
+    padding: 1rem 1rem;
+   }
+
+   .sessaoResult{
+    margin: 5%;
+   }
+   .sessaoResult__mensagem{
+    margin: 0% 2% 2% 2%;
+    
+   }
+
+   .sessaoResult__avisoMensagem {
+    margin: 3%;
+   }
+
+   .avisoMensagem__img {
+    width: 1rem;
+    height: 1rem;
+   }
+
+
+   #mensagem__img {
+    display: none;
+   }
+
+
+}
+
+@media (max-width:356px) {
+
+    .conteudoPrincipal{
+        width: auto;
+    }
+    
+    .sessaoInput__botao {
+     gap: 0.2rem;
+    }
+
+    .alert__img{
+        height: 0.5rem;
+        width: 0.5rem;
+    }
+ 
+ }
+
+ @media (max-width:1240px) {
+    .sessaoResult{
+        margin: 3%;
+       }    
+ }
+ @media (max-width:1230px)  {
+    .sessaoResult{
+        margin: 3.5%;
+       }    
+ }
+ @media (max-width:1235px)  {
+    .sessaoResult{
+        margin: 3.5%;
+       }    
+ }
+ 
+
+ @media (max-width:1250px) {
+    .sessaoResult{
+        margin: 2.5%;
+       }
+
+ }
+
+ 
+ @media (max-width:1220px) {
+    .sessaoResult{
+        margin: 3.5%;
+       }
+
+ }
+ @media (max-width:1225px) {
+    .sessaoResult{
+        margin: 3%;
+       }
+
+ }

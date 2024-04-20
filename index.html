@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/query.css">
+     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <main class="conteudoPrincipal">
+        
+        <section class="conteudoPrincipal__sessaoInput">
+
+            <div class="sessaoInput__logo">
+                <img src="assents/logo.svg">
+            </div>
+            
+            <div class="sessaoInput__textbutton">
+                
+                <textarea class="sessaoInput__texto" placeholder="Digite seu texto" cols="70" rows="10"></textarea>                
+                
+                <div class="sessaoInput__alerta" id="sessaoInput__alerta">
+                    <div class="aviso-text" id="aviso-text">
+                        <i class="fas fa-exclamation-circle" id="aviso-icon" style="color:#495057;"></i>
+                        <p class="alerta__paragrafo">Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                </div>
+
+                <div class="sessaoInput__botao">    
+                    <button class="botao__criptografar" onclick="btnCriptografar()">Criptografar</button>
+                    <button class="botao__descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+                </div>
+
+            </div>
+
+        </section>
+ 
+        <section class="sessaoResult" id="section_result">
+        
+            <div class="sessaoResult__mensagem" id="sessaoResult__mensagem">
+                <img class="mensagem__img" id="mensagem__img" src="assents/pessoa.svg">
+            </div> 
+
+            <div class="sessaoResult__avisoMensagem" id="sessaoResult__avisoMensagem">
+                <h2 class="avisoMensagem__titulo">Nenhuma mensagem encontrada</h2>
+                <p class="avisoMensagem__paragrafo">Digite o texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        
+            <div class="sessaoResult__textarea" id="sessaoResult__textarea">
+            <textarea class="sessaoResult__texto" cols="25" rows="12" desable></textarea>
+            </div>
+
+            <div class="sessaoResult__botao" id="sessaoResult__botao">    
+                <button class="botao__copiar" id="botao__copiar">Copiar</button>
+            </div> 
+        
+        </section>
+
+    </main>
+    
+    <footer class="rodape">
+        <p class="rodape__txt"> &copy; 2024 Franbs. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -88,7 +88,7 @@ btnCopiar.addEventListener('click', () => {
     AreaMsg.setSelectionRange(0, 99999);
 
     
-    //document.execCommand('copy');
+    document.execCommand('copy');
 
     
     btnCopiar.innerText = 'Texto Copiado!';
